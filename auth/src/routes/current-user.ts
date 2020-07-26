@@ -2,8 +2,7 @@
  * The route of getting the current user.
  */
 import express from 'express';
-import { currentUserHandler } from '../middlewares/current-user-handler';
-import { requireAuth } from '../middlewares/require-auth';
+import { currentUserHandler } from '@francislinticketapp/common';
 
 const router = express.Router();
 
